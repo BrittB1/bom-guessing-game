@@ -21,3 +21,8 @@ const characters = [{
 const statusEl = document.getElementById("status");
 const hintListEl = document.getElementById("hint-list");
 const guessingbutton = document.getElementById("guessing-button");
+
+function pickRandomCharacter(){
+    const index = Math.floor(Math.random() * characters.length);
+    return characters [i];
+}
