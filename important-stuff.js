@@ -18,3 +18,6 @@ const characters = [{
 }
 ];
 
+const statusEl = document.getElementById("status");
+const hintListEl = document.getElementById("hint-list");
+const guessingbutton = document.getElementById("guessing-button");
